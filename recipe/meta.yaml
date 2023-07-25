@@ -17,13 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
     - setuptools-scm
   run:
     - mrcfile >=1.1
-    - napari-plugin-engine >=0.1.4
     - numpy >=1.18
-    - python >=3.6
+    - python >=3.8
 
 test:
   imports:
